@@ -25,7 +25,6 @@ app.get("/", (req, res) => {
 });
 
 
-
 const peerServer = PeerServer({ port: 9000, path: "/mycommunication" });
 
 app.listen(process.env.PORT || 3000, () => {
